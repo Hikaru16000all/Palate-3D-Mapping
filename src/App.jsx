@@ -677,7 +677,7 @@ function App() {
                 onClick={handleDownloadImage}
                 className={`${topButton} bg-gray-600 hover:bg-gray-700`}
             >
-                Download gsMap Results
+                Download Results
             </button>
         </div>
       </div>
