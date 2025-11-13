@@ -3,7 +3,7 @@ import Papa from 'papaparse';
 
 // 公共数据文件路径
 const DATA_BASE_PATH = './data';
-const SECTION_FILE = 'https://zenodo.org/records/17597227/files/gene_expression.csv?download=1';
+const SECTION_FILE = `${DATA_BASE_PATH}/section.csv`;
 const COORDINATES_FILE = `${DATA_BASE_PATH}/coordinates.csv`;
 const TF_ACTIVITY_FILE = `${DATA_BASE_PATH}/tf_activity.csv`;
 const GENE_EXPRESSION_FILE = `${DATA_BASE_PATH}/gene_expression.csv`;
