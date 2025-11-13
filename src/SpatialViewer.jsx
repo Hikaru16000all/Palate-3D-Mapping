@@ -157,8 +157,7 @@ const SpatialViewer = ({
     depth: false,
     failIfMajorPerformanceCaveat: false,
     // 添加更多兼容性选项
-    premultipliedAlpha: false,
-    preserveDrawingBuffer: true
+    premultipliedAlpha: false
   }), []);
 
   // WebGL 错误处理
