@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@deck.gl/core": "^9.2.2",
     "@deck.gl/layers": "^9.2.2",
     "@deck.gl/react": "^9.2.2",
     "html2canvas": "^1.4.1",
